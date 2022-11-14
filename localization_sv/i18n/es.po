@@ -1,6 +1,0 @@
-
-#. module: localization_sv
-#: model:ir.model.fields,field_description:localization_sv.field_res_partner__vat
-#: model:ir.model.fields,field_description:localization_sv.field_res_users__vat
-msgid "Vat"
-msgstr "Identificacion Fiscal / NRC."
