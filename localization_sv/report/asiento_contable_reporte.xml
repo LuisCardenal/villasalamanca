@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="report_wood_stuff_invoicing" model="ir.actions.report">
+        <field name="name">Asiento Contable Reporte</field>
+        <field name="model">account.move</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">localization_sv.localization_sve</field>
+        <field name="report_file">localization_sv.localization_sve</field>
+        <field name="binding_model_id" ref="account.model_account_move"/>
+        <field name="binding_type">report</field>
+    </record>
+</odoo>
