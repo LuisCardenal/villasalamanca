@@ -59,13 +59,13 @@ class LoanInstallment(models.Model):
 
         move_line = [debit_line,credit_line]
 
-        jounral = account_move.create({'date': fields.datetime.now(),
+        journal = account_move.create({'date': fields.datetime.now(),
                     'journal_id' :self.loan_id.interest_journal_id.id,
                     'ref' : str(self.installment_number) ,
                     'line_ids' : move_line})
 
-        jounral.action_post()
-        self.write({'interest_acouunting_id' :jounral.id })
+        journal.action_post()
+        self.write({'interest_acouunting_id' :journal.id })
         self.installment_booked = True
         return
 
@@ -87,13 +87,13 @@ class LoanInstallment(models.Model):
                             }]
 
         move_line = [debit_line,credit_line]
-        jounral = account_move.create({'date': fields.datetime.now(),
+        journal = account_move.create({'date': fields.datetime.now(),
                     'journal_id' :self.loan_id.disburse_journal_id.id,
                     'ref' : str(self.installment_number) ,
                     'line_ids' : move_line})
 
-        jounral.action_post()
-        self.write({'accounting_entry_id' :jounral.id,'state':'paid' })
+        journal.action_post()
+        self.write({'accounting_entry_id' :journal.id,'state':'paid' })
 
         return
 

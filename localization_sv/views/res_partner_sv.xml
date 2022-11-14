@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="res_partner_view_sv" model="ir.ui.view">
+        <field name="name">view.res.partner</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="account.view_partner_property_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//field[@name='vat']" position="before">
+            <field name="document_nit" placeholder='Ej: 0123-4567-890-1'/>
+            </xpath>
+
+            <xpath expr="//field[@name='document_nit']" position="after">
+            <field name="document_dui" placeholder='Ej: 12345678-9'/>
+            </xpath>
+
+            <xpath expr="//field[@name='document_dui']" position="after">
+            <field name="document_giro"/>
+            </xpath>
+
+             <xpath expr="//field[@name='category_id']" position="after">
+            <field name="journal_contacts"/>
+             </xpath>
+
+            <field name="vat" position="attributes">
+                <attribute name = "help"> Identificación Fiscal / NRC
+                                          El número de identificación de impuesto. Complételo si el contacto está sujeto
+                                          a los impuestos del gobierno. Utilizado en algunas declaraciones legales.
+                                           </attribute>
+                <attribute name = "placeholder">Ingrese su número de identificación fiscal</attribute>
+            </field>
+
+
+        </field>
+    </record>
+
+
+
+
+</odoo>

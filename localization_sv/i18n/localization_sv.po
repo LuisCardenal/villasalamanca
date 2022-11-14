@@ -1,0 +1,316 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* localization_sv
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-11-08 14:42+0000\n"
+"PO-Revision-Date: 2022-11-08 14:42+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "# Cotización"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "<strong><span>Note:</span> </strong>"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "<strong>Diario: </strong>"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "<strong>Fecha Contable: </strong>"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "<strong>Referencia: </strong>"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "<strong>Total Sin Impuestos</strong>"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "<strong>Total</strong>"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.report_wood_stuff_invoicing
+msgid "Asiento Contable Reporte"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Asiento de diario"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Autorizado por:"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Cantidad"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields.selection,name:localization_sv.selection__hr_employee__document_tipo_afp__confia
+msgid "Confia"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.factura_consumidor_final
+msgid "Consumidor Final"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.report_aserradero
+msgid "Consumidor Final Exento"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model,name:localization_sv.model_res_partner
+msgid "Contact"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.report_saleorder_document_asiento_record
+msgid "Cotizacion personalizada"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields.selection,name:localization_sv.selection__hr_employee__document_tipo_afp__crecer
+msgid "Crecer"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Credito"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.factura_credito_fiscal
+msgid "Credito Fiscal"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.factura_de_credito_fiscal_exento
+msgid "Credito Fiscal Exento"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Cuenta"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_hr_employee__document_dui
+#: model:ir.model.fields,field_description:localization_sv.field_res_partner__document_dui
+#: model:ir.model.fields,field_description:localization_sv.field_res_users__document_dui
+msgid "DUI"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Debito"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Descripción"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Descto.(%)"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.factura_consumidor_final_exento
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_consumidor_final_no_exento
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_credito_fiscal
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_credito_fiscal_exento
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_de_exportacion
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_nota_credito
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_nota_devolucion
+msgid "Descuento"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_res_partner__journal_contacts
+#: model:ir.model.fields,field_description:localization_sv.field_res_users__journal_contacts
+msgid "Diario contable enlazado"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_account_bank_statement_line__journal_invoice
+#: model:ir.model.fields,field_description:localization_sv.field_account_move__journal_invoice
+#: model:ir.model.fields,field_description:localization_sv.field_account_payment__journal_invoice
+msgid "Diario relacionado: "
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Dirección de cliente"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Dirección de facturación y envío"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Divisa"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model,name:localization_sv.model_hr_employee
+msgid "Employee"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Etiqueta"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Fecha de la cotización"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_res_partner__document_giro
+#: model:ir.model.fields,field_description:localization_sv.field_res_users__document_giro
+msgid "Giro"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Hecho por:"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields.selection,name:localization_sv.selection__hr_employee__document_tipo_afp__ipsfa
+msgid "IPSFA"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Impuestos"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model,name:localization_sv.model_account_move
+msgid "Journal Entry"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_account_bank_statement_line__journal_id
+#: model:ir.model.fields,field_description:localization_sv.field_account_move__journal_id
+#: model:ir.model.fields,field_description:localization_sv.field_account_payment__journal_id
+msgid "Moneda en: "
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_res_partner__document_nit
+#: model:ir.model.fields,field_description:localization_sv.field_res_users__document_nit
+msgid "NIT"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.factura_nota_credito
+msgid "Nota de crédito"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.factura_nota_de_devolucion
+msgid "Nota de devolución"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_hr_employee__document_num_afp
+msgid "Número de AFP"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_hr_employee__document_num_isss
+msgid "Número de ISSS"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields.selection,name:localization_sv.selection__hr_employee__document_tipo_afp__otros
+msgid "Otros"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Partner"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Precio"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Precio Unitario"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Revisado por:"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.localization_sve
+msgid "Tablas de impuesto"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields,field_description:localization_sv.field_hr_employee__document_tipo_afp
+msgid "Tipo de AFP"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.report_sale_order_document_asiento
+msgid "Términos de pago :"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.model.fields.selection,name:localization_sv.selection__hr_employee__document_tipo_afp__unidad_de_pensiones_del_isss
+msgid "Unidad de pensiones del ISSS"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.account_move_view_sv
+msgid "con moneda en:"
+msgstr ""
+
+#. module: localization_sv
+#: model:ir.actions.report,name:localization_sv.factura_de_exportacion
+msgid "factura de exportación"
+msgstr ""
+
+#. module: localization_sv
+#: model_terms:ir.ui.view,arch_db:localization_sv.account_move_view_sv
+msgid "hi"
+msgstr ""

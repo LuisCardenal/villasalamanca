@@ -57,12 +57,12 @@ class LoanRequest(CustomerPortal):
     @http.route(['/loan/view/detail/<model("loan.request"):loan>'],type='http',auth="public",website=True)
     def loan_view(self, loan, category='', message=False, search='', **kwargs):
         context = dict(request.env.context or {})
-        # loan_request_obj = request.env['loan.request']
+        loan_request_obj = request.env['loan.request']
         context.update(active_id=loan.id)
-        # loan_request_data_list = loan_request_obj
-        # loan_request_data = loan_request_obj.sudo().browse(int(loan.id))
-        # for items in loan_request_data:
-        #     loan_request_data_list.append(items.id)
+        loan_request_data_list = loan_request_obj
+        loan_request_data = loan_request_obj.sudo().browse(int(loan.id))
+        for items in loan_request_data:
+            loan_request_data_list.append(items.id)
         return http.request.render('odoo_customer_supplier_loan_app.loan_request_view',{
             'loan_request_data_list': loan,
             'message' : message
