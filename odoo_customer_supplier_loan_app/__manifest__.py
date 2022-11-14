@@ -36,8 +36,7 @@ loan client
         
 """,
     "license": "OPL-1",
-    'depends': ['sale_management', 'website', 'account', 'purchase', 'stock', 'account_payment',
-                'account_payment', 'account', 'account_payment'],
+    'depends': ['sale_management', 'website', 'account', 'purchase', 'stock'],
     'data': [
         'security/loan_management_group.xml',
         'security/ir.model.access.csv',
