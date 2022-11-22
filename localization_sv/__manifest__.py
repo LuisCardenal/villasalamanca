@@ -18,7 +18,7 @@
     'summary': 'En este modulo se puede automatizar el apartado de reportes y facturas agregando nuevos campos relevantes.',
 
     # any module necessary for this one to work correctly
-    'depends': ['account', 'base', 'contacts', 'hr', 'sale'],
+    'depends': ['account', 'contacts', 'hr', 'sale'],
 
     # always loaded
     'data': [
